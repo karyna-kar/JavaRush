@@ -4,13 +4,11 @@ package com.javarush.task.task14.task1406;
 Без ошибок
 */
 
-import com.javarush.task.task14.task1406.Solution.Mouse;
-
 public class Solution {
     public static void main(String[] args) {
-        Object obj = //Add your code here
+        Object obj = new Jerry();
 
-                Mouse mouse = (Mouse) obj;
+        Mouse mouse = (Mouse) obj;
         GrayMouse grayMouse = (GrayMouse) mouse;
         Jerry jerry = (Jerry) grayMouse;
 
